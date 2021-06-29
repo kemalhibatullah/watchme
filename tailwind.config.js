@@ -95,7 +95,7 @@ module.exports = {
         400: "#63b3ed",
         500: "#4299e1",
         600: "#3182ce",
-        700: "#2b6cb0",
+        700: "#0047FF", //custom blue
         800: "#2c5282",
         900: "#2a4365",
       },
@@ -123,7 +123,7 @@ module.exports = {
       },
       pink: {
         100: "#fff5f7",
-        200: "#fed7e2",
+        200: "#FFE8E2", //custom color
         300: "#fbb6ce",
         400: "#F9CADA",
         500: "#ed64a6",

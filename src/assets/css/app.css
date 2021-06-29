@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+@import url('https://rsms.me/inter/inter.css');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /* utils */
+
+*{
+  font-family: 'Inter var', sans-serif;
+}
 
 .grid {
   grid-auto-flow: row dense;
