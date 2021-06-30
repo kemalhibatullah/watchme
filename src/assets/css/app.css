@@ -96,8 +96,8 @@ ul.breadcrumb li:last-child a {
 
 .slider .thumbnail .item {
   @apply rounded relative rounded-lg mb-4 cursor-pointer;
-  width: 106px;
-  height: 106px;
+  width: 90px;
+  height: 90px;
 }
 
 .slider .thumbnail .item:after {

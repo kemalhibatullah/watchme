@@ -64,13 +64,13 @@ export default function FooterMenu() {
                         </div>
                         <div className="w-60 md:w-60 mb-4 md:mb-0">
                             <div className="grid grid-flow-col grid-cols-4 grid-rows-2 gap-2">
-                                <img src="images/visa.png" alt="" className="" />
-                                <img src="images/master-card.png" alt="" className="" />
-                                <img src="images/bni.png" alt="" className="" />
-                                <img src="images/bri.png" alt="" className="" />
-                                <img src="images/bca.png" alt="" className="" />
-                                <img src="images/ovo.png" alt="" className="" />
-                                <img src="images/gopay.png" alt="" className="" />
+                                <img src="/images/visa.png" alt="" className="" />
+                                <img src="/images/master-card.png" alt="" className="" />
+                                <img src="/images/bni.png" alt="" className="" />
+                                <img src="/images/bri.png" alt="" className="" />
+                                <img src="/images/bca.png" alt="" className="" />
+                                <img src="/images/ovo.png" alt="" className="" />
+                                <img src="/images/gopay.png" alt="" className="" />
                             </div>
                         </div>
                     </div>

@@ -5,7 +5,7 @@ import { HiOutlineChevronRight } from 'react-icons/hi'
 export default function Promo() {
     return (
         <section className="px-7 md:px-28 mb-20">
-            <div class="flex flex-col md:flex-row text-center h-full w-full bg-pink-200">
+            <div className="flex flex-col md:flex-row text-center h-full w-full bg-pink-200">
                 <div className="order-2 md:order-1 h-full w-1/2 md:h-96 md:max-h-96 z-10 self-center">
                     <img src="images/promo-3.png" alt="" className="mx-auto h-1/3 w-1/3 md:h-full object-cover w-full" />
                 </div>

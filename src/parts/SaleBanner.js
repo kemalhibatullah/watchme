@@ -6,7 +6,7 @@ import { HiOutlineChevronRight } from 'react-icons/hi'
 export default function SaleBanner() {
     return (
         <section className="px-7 md:px-28 mb-20">
-            <div class="grid justify-items-center text-center h-96 w-full" style={{backgroundImage: `url("images/sale-banner.png")`}}>
+            <div className="grid justify-items-center text-center h-96 w-full" style={{backgroundImage: `url("images/sale-banner.png")`}}>
                 <div className="self-center p-10">
                     <h1 className="text-white text-3xl font-semibold">Sale Collections</h1>
                     <div className="mt-3">

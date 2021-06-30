@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Hero() {
     return (
@@ -16,20 +17,19 @@ export default function Hero() {
                     On WatchMe you will get a watch that can make every moment not to be missed and make every moment count, choose a brand that suits your preferences
                 </h2>
                 <div>
-                    <a
+                    <Link
                         href="#browse-the-room"
                         className="bg-blue-700 text-white hover:bg-blue-600 hover:text-white rounded px-8 py-3 mt-4 inline-block flex-none transition duration-200"
-                    >SEE COLLECTIONS</a
-                    >
+                    >SEE COLLECTIONS</Link>
                 </div>
             </div>
             <div className="w-full inset-0 md:relative md:pl-20 md:w-1/2 object-right">
-                <div class="relative hero-image inset-0">
-                <div class="overlay inset-0 bg-black md:bg-transparent opacity-75 z-10"></div>
+                <div className="relative hero-image inset-0">
+                <div className="overlay inset-0 bg-black md:bg-transparent opacity-75 z-10"></div>
                     <img
                         src="images/hero-img.png"
                         alt="hero 1"
-                        class="inset-0 md:relative object-cover object-center"
+                        className="inset-0 md:relative object-cover object-center"
                     />
                 </div>
             </div>

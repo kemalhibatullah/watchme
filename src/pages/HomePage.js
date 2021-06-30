@@ -10,7 +10,7 @@ import SaleBanner from "parts/SaleBanner";
 import FooterMenu from "parts/FooterMenu";
 import Footer from "parts/Footer";
 
-export default function Homepage(props) {
+export default function Homepage() {
     return (
         <>
             <Header />

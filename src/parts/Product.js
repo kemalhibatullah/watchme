@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 export default function Product() {
     return (
@@ -45,9 +47,9 @@ export default function Product() {
                             <h5 className="text-md font-semibold mt-4">CLASSIC DURHAM</h5>
                             <h5 className="text-base font-medium">Daniel Wellington</h5>
                             <h5 className="text-base font-medium mt-5">Rp 1.999.000</h5>
-                            <a href="details.html" className="stretched-link">
+                            <Link to="details.html" className="stretched-link">
                                 {/* <!-- fake children --> */}
-                            </a>
+                            </Link>
                         </div>
                         {/* <!-- END: JUST ARRIVED ROW 1 --> */}
 
@@ -89,9 +91,9 @@ export default function Product() {
                             <h5 className="text-md font-semibold mt-4">Apple Watch Series 6</h5>
                             <h5 className="text-base font-medium">Apple</h5>
                             <h5 className="text-base font-medium mt-5">Rp 6.999.000</h5>
-                            <a href="details.html" className="stretched-link">
+                            <Link to="details.html" className="stretched-link">
                                 {/* <!-- fake children --> */}
-                            </a>
+                            </Link>
                         </div>
                         {/* <!-- END: JUST ARRIVED ROW 2 --> */}
 
@@ -133,9 +135,9 @@ export default function Product() {
                             <h5 className="text-md font-semibold mt-4">Oyster, 36 mm, Oystersteel and yellow gold</h5>
                             <h5 className="text-base font-medium">Rolex, Explorer</h5>
                             <h5 className="text-base font-medium mt-5">Rp 200.999.000</h5>
-                            <a href="details.html" className="stretched-link">
+                            <Link to="details.html" className="stretched-link">
                                 {/* <!-- fake children --> */}
-                            </a>
+                            </Link>
                         </div>
                         {/* <!-- END: JUST ARRIVED ROW 3 --> */}
 
@@ -177,9 +179,9 @@ export default function Product() {
                             <h5 className="text-md font-semibold mt-4">Xiaomi Mi Haylou Solar LS05</h5>
                             <h5 className="text-base font-medium">Xiaomi</h5>
                             <h5 className="text-base font-medium mt-5">Rp 449.000</h5>
-                            <a href="details.html" className="stretched-link">
+                            <Link to="details.html" className="stretched-link">
                                 {/* <!-- fake children --> */}
-                            </a>
+                            </Link>
                         </div>
                         {/* <!-- END: JUST ARRIVED ROW 4 --> */}
 
@@ -221,9 +223,9 @@ export default function Product() {
                             <h5 className="text-md font-semibold mt-4">Samsung Galaxy Watch 3 45mm</h5>
                             <h5 className="text-base font-medium">Samsung</h5>
                             <h5 className="text-base font-medium mt-5">Rp 5.999.000</h5>
-                            <a href="details.html" className="stretched-link">
+                            <Link to="details.html" className="stretched-link">
                                 {/* <!-- fake children --> */}
-                            </a>
+                            </Link>
                         </div>
                         {/* <!-- END: JUST ARRIVED ROW 5 --> */}
 
@@ -265,9 +267,9 @@ export default function Product() {
                             <h5 className="text-md font-semibold mt-4">CLASSIC DURHAM</h5>
                             <h5 className="text-base font-medium">Daniel Wellington</h5>
                             <h5 className="text-base font-medium mt-5">Rp 1.999.000</h5>
-                            <a href="#details.html" className="stretched-link">
+                            <Link to="#details.html" className="stretched-link">
                                 {/* <!-- fake children --> */}
-                            </a>
+                            </Link>
                         </div>
                         {/* <!-- END: JUST ARRIVED ROW 3 --> */}
 
@@ -309,9 +311,9 @@ export default function Product() {
                             <h5 className="text-md font-semibold mt-4">CLASSIC DURHAM</h5>
                             <h5 className="text-base font-medium">Daniel Wellington</h5>
                             <h5 className="text-base font-medium mt-5">Rp 1.999.000</h5>
-                            <a href="#details.html" className="stretched-link">
+                            <Link to="#details.html" className="stretched-link">
                                 {/* <!-- fake children --> */}
-                            </a>
+                            </Link>
                         </div>
                         {/* <!-- END: JUST ARRIVED ROW 1 --> */}
                     </div>
