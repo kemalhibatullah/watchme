@@ -18,7 +18,7 @@ export default function Hero() {
                 </h2>
                 <div>
                     <Link
-                        href="#browse-the-room"
+                        to="#browse-the-room"
                         className="bg-blue-700 text-white hover:bg-blue-600 hover:text-white rounded px-8 py-3 mt-4 inline-block flex-none transition duration-200"
                     >SEE COLLECTIONS</Link>
                 </div>

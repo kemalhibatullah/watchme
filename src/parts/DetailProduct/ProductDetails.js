@@ -78,7 +78,7 @@ export default function ProductDetails() {
                     <p className="text-2xl mt-3 text-red-500 font-semibold">Rp. 7.699.000</p>
 
                     <Link
-                        href="cart.html"
+                        to="cart.html"
                         className="transition-all duration-200 bg-blue-700 text-white hover:bg-blue-600 hover:text-white rounded px-8 py-3 mt-10 inline-flex"
                     > <HiOutlineShoppingCart size={20} className="mr-3" /> Add to Cart</Link>
                     <hr className="my-8" />

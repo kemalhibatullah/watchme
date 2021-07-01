@@ -12,7 +12,7 @@ export default function Breadcrumb({ list }) {
                             index === list?.length ? { "aria-label": "current-page" } : {};
                         return (
                             <li key={item.url}>
-                                <Link to={item.url} {...arias}>
+                                <Link to={item.url} {...arias} className="text-sm">
                                     {item.name}
                                 </Link>
                             </li>

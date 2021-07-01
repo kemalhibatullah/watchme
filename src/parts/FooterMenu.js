@@ -46,19 +46,19 @@ export default function FooterMenu() {
                             <h5 className="text-lg font-medium mb-2 relative">About Us</h5>
                             <ul className="h-0 invisible md:h-auto md:visible overflow-hidden">
                                 <li>
-                                    <Link href="#" className="hover:text-blue-700 text-sm font-normal py-1 block">Our Story</Link>
+                                    <Link to="#" className="hover:text-blue-700 text-sm font-normal py-1 block">Our Story</Link>
                                 </li>
                                 <li>
-                                    <Link href="#" className="hover:text-blue-700 text-sm font-normal py-1 block">Carrer</Link>
+                                    <Link to="#" className="hover:text-blue-700 text-sm font-normal py-1 block">Carrer</Link>
                                 </li>
                                 <li>
-                                    <Link href="#" className="hover:text-blue-700 text-sm font-normal py-1 block">Events</Link>
+                                    <Link to="#" className="hover:text-blue-700 text-sm font-normal py-1 block">Events</Link>
                                 </li>
                                 <li>
-                                    <Link href="#" className="hover:text-blue-700 text-sm font-normal py-1 block">Blog</Link>
+                                    <Link to="#" className="hover:text-blue-700 text-sm font-normal py-1 block">Blog</Link>
                                 </li>
                                 <li>
-                                    <Link href="#" className="hover:text-blue-700 text-sm font-normal py-1 block">Store Location</Link>
+                                    <Link to="#" className="hover:text-blue-700 text-sm font-normal py-1 block">Store Location</Link>
                                 </li>
                             </ul>
                         </div>
